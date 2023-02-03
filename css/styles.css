@@ -4536,13 +4536,13 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -0.125rem;
   line-height: 1.25;
-  color: #1f2d41;
+  color: #ffffff;
   background-color: #fff;
   border: 0.125rem solid #dee2e6;
 }
 .page-link:hover {
   z-index: 2;
-  color: #06090d;
+  color: #ffffff;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
