@@ -5919,7 +5919,7 @@ a.close.disabled {
   left: 15%;
   z-index: 10;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   color: #000;
   text-align: center;
 }
