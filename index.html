@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script type="text/javascript">
+        navigator.standalone = navigator.standalone || (screen.height-document.documentElement.clientHeight<40)
+    
+        alert(navigator.standalone == true);
+        alert(screen.height-document.documentElement.clientHeight)
+    </script>
 <link rel="apple-touch-icon" sizes="152x152"><i class="bi bi-book-half"></i></link>
 <link rel="shorcut icon" sizes="152x152"><i class="bi bi-book-half"></i></link>
     <meta name="mobile-web-app-capable" content="yes">
