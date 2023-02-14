@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="icon" href="assets/img/996f44c2cf13dab85a613da8451cd604-kitsune-mask-sticker.png" type="image/png" sizes="16x16">
+   <link rel="icon" href="assets/img/996f44c2cf13dab85a613da8451cd604-kitsune-mask-sticker.png" type="image/png" sizes="16x16">
+   <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#lists").load("lists.html"); 
+  $("#footer").load("footer.html"); 
+  $("#kana").load("kana.html"); 
+});
+</script> 
+</head>
+<body>
+<div id="header"></div> 
+   
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
         <title>日本語</title>
-        <!-- Font Awesome icons (free version)-->
+       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
-        <!-- Core theme CSS (includes Bootstrap)-->
+       
         <link href="css/styles.css" rel="stylesheet">
-        <!-- Fonts CSS-->
+       
         <link rel="stylesheet" href="css/heading.css">
         <link rel="stylesheet" href="css/body.css">
     </head>
-    <body id="page-top">
+ <!--header-->  
+     <body id="page-top">
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-            <div class="container"><a class="navbar-brand js-scroll-trigger" href="index.html">日本語</a>
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">日本語</a>
                 <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                   <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">GRAMMAR</a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">GRAMMAR</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">VOCABULARY</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#lists">VOCABULARY</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">QUICK REFERENCE</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#kana">QUICK REFERENCE</a>
                         </li>
                     </ul>
                 </div>
@@ -270,241 +287,11 @@
             </div>
         </div>
         <!-- Portfolio Modal - code removed, can be found in template.html -->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <div class="text-center">
-                    <h2 class="page-section-heading d-inline-block text-white">Vocabulary</h2>
-                </div>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-4">
-                        <div class="d-flex flex-column align-items-center">
-                           <a href="genkivol1.html"><button type="button" class="btn btn-secondary" >Genki, Vo. 1</button></a>
-                        </div>
-                        <hr>
-                        <div class="d-flex flex-column align-items-center">
-                            <a href="kanji.html"><button type="button" class="btn btn-secondary" >Kanji</button></a>
-                         </div>
-                     </div>
-            </div>
+        <section class="page-section bg-primary text-white mb-0" id="lists">
+            
         </section>
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading -->
-                <div class="text-center">
-                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Quick Reference</h2>
-                </div>
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center">Hiragana</h3>
-                       <table class="table table-bordered table-striped table-light table-hover table-sm" >
-                            <thead>
-                                <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">A</th>
-                                    <th scope="col">I</th>
-                                    <th scope="col">O</th>
-                                    <th scope="col">E</th>
-                                    <th scope="col">U</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row"></th>
-                                    <td>あ</td>
-                                    <td>い</td>
-                                    <td>お</td>
-                                    <td>え</td>
-                                    <td>う</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">K</th>
-                                    <td>か</td>
-                                    <td>き</td>
-                                    <td>こ</td>
-                                    <td>け</td>
-                                    <td>く</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">S</th>
-                                    <td>さ</td>
-                                    <td>し</td>
-                                    <td>そ</td>
-                                    <td>せ</td>
-                                    <td>す</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">T</th>
-                                    <td>た</td>
-                                    <td>ち</td>
-                                    <td>と</td>
-                                    <td>て</td>
-                                    <td>つ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">N</th>
-                                    <td>な</td>
-                                    <td>に</td>
-                                    <td>の</td>
-                                    <td>ね</td>
-                                    <td>ぬ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">H</th>
-                                    <td>は</td>
-                                    <td>ひ</td>
-                                    <td>ほ</td>
-                                    <td>へ</td>
-                                    <td>ふ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">M</th>
-                                    <td>ま</td>
-                                    <td>み</td>
-                                    <td>も</td>
-                                    <td>め</td>
-                                    <td>む</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Y</th>
-                                    <td>や</td>
-                                    <td></td>
-                                    <td>よ</td>
-                                    <td></td>
-                                    <td>ゆ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">R</th>
-                                    <td>ら</td>
-                                    <td>り</td>
-                                    <td>ろ</td>
-                                    <td>れ</td>
-                                    <td>る</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">W</th>
-                                    <td>わ</td>
-                                    <td></td>
-                                    <td>ん</td>
-                                    <td></td>
-                                    <td>を</td>
-                                </tr>
-                            </tbody>
-                       </table>        
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                        <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center">Katakana</h3>
-                       <table class="table table-bordered table-striped table-light table-hover table-sm" >
-                            <thead>
-                                <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">A</th>
-                                    <th scope="col">I</th>
-                                    <th scope="col">O</th>
-                                    <th scope="col">E</th>
-                                    <th scope="col">U</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row"></th>
-                                    <td>ア</td>
-                                    <td>イ</td>
-                                    <td>オ</td>
-                                    <td>エ</td>
-                                    <td>ウ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">K</th>
-                                    <td>カ</td>
-                                    <td>キ</td>
-                                    <td>コ</td>
-                                    <td>ケ</td>
-                                    <td>ク</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">S</th>
-                                    <td>サ</td>
-                                    <td>シ</td>
-                                    <td>ソ</td>
-                                    <td>セ</td>
-                                    <td>ス</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">T</th>
-                                    <td>タ</td>
-                                    <td>チ</td>
-                                    <td>ト</td>
-                                    <td>テ</td>
-                                    <td>ッ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">N</th>
-                                    <td>ナ</td>
-                                    <td>ニ</td>
-                                    <td>ノ</td>
-                                    <td>ネ</td>
-                                    <td>ヌ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">H</th>
-                                    <td>ハ</td>
-                                    <td>ヒ</td>
-                                    <td>ホ</td>
-                                    <td>ヘ</td>
-                                    <td>フ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">M</th>
-                                    <td>マ</td>
-                                    <td>ミ</td>
-                                    <td>モ</td>
-                                    <td>メ</td>
-                                    <td>ム</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Y</th>
-                                    <td>ヤ</td>
-                                    <td></td>
-                                    <td>ヨ</td>
-                                    <td></td>
-                                    <td>ユ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">R</th>
-                                    <td>ラ</td>
-                                    <td>リ</td>
-                                    <td>ル</td>
-                                    <td>レ</td>
-                                    <td>ル</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">W</th>
-                                    <td>ワ</td>
-                                    <td></td>
-                                    <td>ン</td>
-                                    <td></td>
-                                    <td>ヲ</td>
-                                </tr>
-                            </tbody>
-                       </table>  
-                    </div>
-                </div>
-                
-                </div>
-            </div>
+        <section class="page-section" id="kana">
+            
         </section> 
         <footer class="footer text-center">
             <div class="container">
