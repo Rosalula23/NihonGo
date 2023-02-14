@@ -13,10 +13,9 @@ $(function(){
   $("#kana").load("kana.html"); 
 });
 </script> 
-</head>
+
 <body>
-<div id="header"></div> 
-   
+<div id="header">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,6 +30,7 @@ $(function(){
         <link rel="stylesheet" href="css/heading.css">
         <link rel="stylesheet" href="css/body.css">
     </head>
+</div>
  <!--header-->  
      <body id="page-top">
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
@@ -52,7 +52,7 @@ $(function(){
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/996f44c2cf13dab85a613da8451cd604-kitsune-mask-sticker.png" alt="kitsune">
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading mb-0">NihonGo</h1>
+                <h1 class="masthead-heading mb-0">SENTENCE PATTERNS</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -67,7 +67,7 @@ $(function(){
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <div class="text-center">
-                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">SENTENCE PATTERNS</h2>
                 </div>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
@@ -83,9 +83,10 @@ $(function(){
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/Blank Torii.png" alt="Blank Torii"/>
+                                    <h4 class="carousel-caption">It is / It is not</h4>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
+                  <!--  <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -120,7 +121,7 @@ $(function(){
                             </div><img class="img-fluid" src="assets/img/portfolio/Blank Torii.png" alt="Blank Torii"/>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- Portfolio Modal-->
@@ -133,16 +134,30 @@ $(function(){
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">です・じゃないです</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="Log Cabin"/>
+                                    <!-- Portfolio Modal - Image-->
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <h4 class="mb-5 text-left">Xは Y です <br> <br> X is Y. </h4>
+                                    <hr>
+                                    <p class="mb-5 text-left"> Examples: <br><br>
+                                                            学生です。<br> I am a student. <br><br>
+                                                            十二時半です。<br> It is half past 12. <br><br>
+                                                            山下さんは先生です。<br> Mr. Yamashita is a teacher.
+                                    </p>
+                                    <hr>
+                                    <h4 class="mb-5 text-left">Xは Y じゃないです <br> <br> X is not Y. </h4>
+                                    <hr>
+                                    <p class="mb-5 text-left"> Examples: <br><br>
+                                                            学生じゃないです。<br> I am a student. <br><br>
+                                                            十二時半じゃないです。<br> It is half past 12. <br><br>
+                                                            山下さんは先生じゃないです。<br> Mr. Yamashita is a teacher.
+                                    </p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -286,13 +301,268 @@ $(function(){
                 </div>
             </div>
         </div>
-        
-        <section class="page-section bg-primary text-white mb-0" id="lists"></section>
-        <section class="page-section" id="kana">
-            <!--in kana file-->
+        <!-- Portfolio Modal - code removed, can be found in template.html -->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-white">Vocabulary</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                           <a href="genkivol1.html"><button type="button" class="btn btn-secondary" >Genki, Vo. 1</button></a>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-column align-items-center">
+                            <a href="kanji.html"><button type="button" class="btn btn-secondary" >Kanji</button></a>
+                         </div>
+                     </div>
+            </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading -->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Quick Reference</h2>
+                </div>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center">Hiragana</h3>
+                       <table class="table table-bordered table-striped table-light table-hover table-sm" >
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">A</th>
+                                    <th scope="col">I</th>
+                                    <th scope="col">O</th>
+                                    <th scope="col">E</th>
+                                    <th scope="col">U</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>あ</td>
+                                    <td>い</td>
+                                    <td>お</td>
+                                    <td>え</td>
+                                    <td>う</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">K</th>
+                                    <td>か</td>
+                                    <td>き</td>
+                                    <td>こ</td>
+                                    <td>け</td>
+                                    <td>く</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">S</th>
+                                    <td>さ</td>
+                                    <td>し</td>
+                                    <td>そ</td>
+                                    <td>せ</td>
+                                    <td>す</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">T</th>
+                                    <td>た</td>
+                                    <td>ち</td>
+                                    <td>と</td>
+                                    <td>て</td>
+                                    <td>つ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">N</th>
+                                    <td>な</td>
+                                    <td>に</td>
+                                    <td>の</td>
+                                    <td>ね</td>
+                                    <td>ぬ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">H</th>
+                                    <td>は</td>
+                                    <td>ひ</td>
+                                    <td>ほ</td>
+                                    <td>へ</td>
+                                    <td>ふ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">M</th>
+                                    <td>ま</td>
+                                    <td>み</td>
+                                    <td>も</td>
+                                    <td>め</td>
+                                    <td>む</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Y</th>
+                                    <td>や</td>
+                                    <td></td>
+                                    <td>よ</td>
+                                    <td></td>
+                                    <td>ゆ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">R</th>
+                                    <td>ら</td>
+                                    <td>り</td>
+                                    <td>ろ</td>
+                                    <td>れ</td>
+                                    <td>る</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">W</th>
+                                    <td>わ</td>
+                                    <td></td>
+                                    <td>ん</td>
+                                    <td></td>
+                                    <td>を</td>
+                                </tr>
+                            </tbody>
+                       </table>        
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center">Katakana</h3>
+                       <table class="table table-bordered table-striped table-light table-hover table-sm" >
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">A</th>
+                                    <th scope="col">I</th>
+                                    <th scope="col">O</th>
+                                    <th scope="col">E</th>
+                                    <th scope="col">U</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ア</td>
+                                    <td>イ</td>
+                                    <td>オ</td>
+                                    <td>エ</td>
+                                    <td>ウ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">K</th>
+                                    <td>カ</td>
+                                    <td>キ</td>
+                                    <td>コ</td>
+                                    <td>ケ</td>
+                                    <td>ク</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">S</th>
+                                    <td>サ</td>
+                                    <td>シ</td>
+                                    <td>ソ</td>
+                                    <td>セ</td>
+                                    <td>ス</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">T</th>
+                                    <td>タ</td>
+                                    <td>チ</td>
+                                    <td>ト</td>
+                                    <td>テ</td>
+                                    <td>ッ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">N</th>
+                                    <td>ナ</td>
+                                    <td>ニ</td>
+                                    <td>ノ</td>
+                                    <td>ネ</td>
+                                    <td>ヌ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">H</th>
+                                    <td>ハ</td>
+                                    <td>ヒ</td>
+                                    <td>ホ</td>
+                                    <td>ヘ</td>
+                                    <td>フ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">M</th>
+                                    <td>マ</td>
+                                    <td>ミ</td>
+                                    <td>モ</td>
+                                    <td>メ</td>
+                                    <td>ム</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Y</th>
+                                    <td>ヤ</td>
+                                    <td></td>
+                                    <td>ヨ</td>
+                                    <td></td>
+                                    <td>ユ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">R</th>
+                                    <td>ラ</td>
+                                    <td>リ</td>
+                                    <td>ル</td>
+                                    <td>レ</td>
+                                    <td>ル</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">W</th>
+                                    <td>ワ</td>
+                                    <td></td>
+                                    <td>ン</td>
+                                    <td></td>
+                                    <td>ヲ</td>
+                                </tr>
+                            </tbody>
+                       </table>  
+                    </div>
+                </div>
+                
+                </div>
+            </div>
         </section> 
-        <footer class="footer text-center" id="footer">
-            <!--in footer file-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Translate -->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <img class="img-fluid"  src= "assets/img/996f44c2cf13dab85a613da8451cd604-kitsune-mask-sticker.png" alt="kitsune"/>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">RESOURCES</h4>
+                        <button type="button" class="btn btn-primary" onclick="window.location.href='https://www.wanikani.com/dashboard';">Wanikani</button>
+                        <button type="button" class="btn btn-primary" onclick="window.location.href='https://www.duolingo.com/learn';">Duolingo</button>
+                    </div>
+                        <!---
+                            <a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/sbootstrap"><i class="fab fa-fw fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/startbootstrap"><i class="fab fa-fw fa-linkedin-in"></i>0</a>
+                            <a class="btn btn-outline-light btn-social mx-1" href="https://www.dribble.com/startbootstrap"><i class="fab fa-fw fa-dribbble"></i></a>
+                            -->
+               
+                    <!-- Footer About Text -->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <img class="img-fluid"  src= "assets/img/996f44c2cf13dab85a613da8451cd604-kitsune-mask-sticker.png" alt="kitsune"/>
+                    </div>
+                </div>
+            </div>
         </footer> 
         <!-- Copyright Section-->
         <section class="copyright py-4 text-center text-white">
