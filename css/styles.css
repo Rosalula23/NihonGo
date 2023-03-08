@@ -5920,7 +5920,8 @@ a.close.disabled {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #A13941;
+  color: #fff;
+  background-color: #A13941;
   text-align: center;
 }
 
