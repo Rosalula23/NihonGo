@@ -102,14 +102,15 @@ $(function(){
                                 <h4 class="carousel-caption">Past Long</h4>
                         </div>
                     </div>
-                 <!--    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/Blank Torii.png" alt="Blank Torii"/>
+                                <h4 class="carousel-caption">て Form</h4>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
+                 <!--    <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -151,6 +152,7 @@ $(function(){
                                                 <th scope="col">い</th>
                                                 <th scope="col">な</th>
                                                 <th scope="col">Irregular</th>
+                                                <th scope="col">Noun</th>
                                             </tr> 
                                         </thead>
                                         <tbody>
@@ -159,30 +161,42 @@ $(function(){
                                                 <td>寒い</td>
                                                 <td>元気</td>
                                                 <td>いい</td>
+                                                <td>学生</td>
                                             </tr>   
                                             <tr>
                                                 <th scope="row">Present Long (+)</th>
                                                 <td>さむいです</td>
                                                 <td>げんきです</td>
                                                 <td>いいです</td>
+                                                <td>がくせいです</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">Present Long (-)</th>
                                                 <td>さむくないです</td>
                                                 <td>げんきじゃないです</td>
                                                 <td>よくないです</td>
+                                                <td>がくせいじゃないです</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">Past Long (+)</th>
                                                 <td>さむかったです</td>
                                                 <td>げんきでした</td>
                                                 <td>よかったです</td>
+                                                <td>がくせいでした</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">Past Long (-)</th>
                                                 <td>さむくなかったです</td>
                                                 <td>げんきじゃなかったです</td>
                                                 <td>よくなかったです</td>
+                                                <td>がくせいじゃないでした</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">て From (+)</th>
+                                                <td>さむくて</td>
+                                                <td>げんきで</td>
+                                                <td>よくて</td>
+                                                <td>がくせいで</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -377,16 +391,76 @@ $(function(){
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">て Form</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="Controller"/>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center"><b>Affirmative (+)</b></h3>
+                                    <table class="table table-bordered table-striped table-hover table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Ending</th>
+                                                <th scope="col">Dictionary</th>
+                                                <th scope="col">Conjugated</th>
+                                                <th scope="col">Meaning</th>                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">い</th>
+                                                <td>寒い</td>
+                                                <td>さむくて</td>
+                                                <td>Cold</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">な</th>
+                                                <td>元気</td>
+                                                <td>げんきで</td>
+                                                <td>Healthy</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Irregular</th>
+                                                <td>格好いい</td>
+                                                <td>かっこうよくて</td>
+                                                <td>Good looking</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center"><b>Negative (-)</b></h3>
+                                    <table class="table table-bordered table-striped table-hover table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Ending</th>
+                                                <th scope="col">Dictionary</th>
+                                                <th scope="col">Conjugated</th>
+                                                <th scope="col">Meaning</th>                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">い</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">な</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Irregular</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>  
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -413,7 +487,68 @@ $(function(){
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center"><b>Affirmative (+)</b></h3>
+                                    <table class="table table-bordered table-striped table-hover table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Ending</th>
+                                                <th scope="col">Dictionary</th>
+                                                <th scope="col">Conjugated</th>
+                                                <th scope="col">Meaning</th>                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">い</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">な</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Irregular</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center"><b>Negative (-)</b></h3>
+                                    <table class="table table-bordered table-striped table-hover table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Ending</th>
+                                                <th scope="col">Dictionary</th>
+                                                <th scope="col">Conjugated</th>
+                                                <th scope="col">Meaning</th>                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">い</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">な</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Irregular</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                                    
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -440,7 +575,68 @@ $(function(){
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="Submarine"/>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center"><b>Affirmative (+)</b></h3>
+                                    <table class="table table-bordered table-striped table-hover table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Ending</th>
+                                                <th scope="col">Dictionary</th>
+                                                <th scope="col">Conjugated</th>
+                                                <th scope="col">Meaning</th>                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">い</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">な</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Irregular</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h3 class="pre-wrap masthead-subheading font-weight-light mb-0 text-center"><b>Negative (-)</b></h3>
+                                    <table class="table table-bordered table-striped table-hover table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Ending</th>
+                                                <th scope="col">Dictionary</th>
+                                                <th scope="col">Conjugated</th>
+                                                <th scope="col">Meaning</th>                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">い</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">な</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Irregular</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                                    
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
