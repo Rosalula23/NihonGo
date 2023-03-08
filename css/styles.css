@@ -5922,9 +5922,8 @@ a.close.disabled {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 55px;
-  color: #fff;
+  color: #19692c;
   text-align: center;
-  outline: #000 2px;
 }
 
 @keyframes spinner-border {
