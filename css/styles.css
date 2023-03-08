@@ -5925,6 +5925,7 @@ a.close.disabled {
   color: #000;
   text-align: center;
   text-shadow: #fff;
+  outline: #fff;
 }
 
 @keyframes spinner-border {
